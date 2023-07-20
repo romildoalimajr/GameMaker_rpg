@@ -30,6 +30,18 @@ if(place_meeting(x,y, obj_enemy1) || place_meeting(x,y, obj_enemy2)){
 	}
 }
 
+if(mouse_check_button_pressed(mb_left)){
+	var arrow = instance_create_depth(x,y,1, obj_arrow);
+	arrow.image_angle = point_direction(x,y,mouse_x, mouse_y);
+	arrow.direction = point_direction(x,y,mouse_x, mouse_y);
+	arrow.speed = 7;
+}
+
 if(life <= 0){
 	room_restart();
+}
+
+if(instance_number(pontos) == 10){
+	room_goto_next();
+	//room_goto(rm_02);
 }
