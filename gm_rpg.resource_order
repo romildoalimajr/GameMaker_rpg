@@ -17,6 +17,7 @@
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_ui","order":6,"path":"objects/obj_ui/obj_ui.yy",},
     {"name":"obj_enemy1","order":3,"path":"objects/obj_enemy1/obj_enemy1.yy",},
     {"name":"spr_enemy1","order":4,"path":"sprites/spr_enemy1/spr_enemy1.yy",},
     {"name":"obj_timer","order":5,"path":"objects/obj_timer/obj_timer.yy",},
