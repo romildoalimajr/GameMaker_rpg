@@ -22,5 +22,6 @@ draw_rectangle(xx, yy, ww2, hh, 1 );
 draw_set_font(fnt_arial);
 
 draw_text(60,23,"Life " + string(obj_player.life));
+draw_text(60,50, "Pontos.: " + string(obj_player.pontos));
 
 

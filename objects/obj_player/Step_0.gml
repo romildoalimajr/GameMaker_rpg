@@ -42,6 +42,9 @@ if(life <= 0){
 }
 
 if(instance_number(pontos) == 10){
-	room_goto_next();
-	//room_goto(rm_02);
+	if(room == room_last){
+		room_goto_previous();
+	}else{
+		room_goto(room_first);
+	}
 }
